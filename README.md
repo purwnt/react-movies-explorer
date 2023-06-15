@@ -1,32 +1,24 @@
-# Github repositories explorer
+# React movie explorer
 
 ## 💻 Application Overview
 
-The application is pretty simple. Users can search github username up to 5 users and explore their repositories.
+The application is pretty simple. Users can search movie.
 
-Its using Github API v3
+Its using https://developer.themoviedb.org/
 
-Demo [https://purwnt.github.io/github-repositories-explorer](https://purwnt.github.io/github-repositories-explorer)
+Demo [https://purwnt.github.io/react-movies-explorer](https://purwnt.github.io/react-movies-explorer)
 
 Tech Stack:
 
 - React
 - Typescript
-- React Query
+- Tanstack React Query
 - Tailwind
 - Heroicons
 - Axios
 - Vite
 - Vitest
 - Playwright
-
-## Data model
-
-The application contains the following models:
-
-- Users: represents searched github users.
-
-- Repositories: represents all the repositories owned by selected github users.
 
 ## Get Started
 
@@ -38,8 +30,8 @@ Prerequisites:
 To set up the app execute the following commands.
 
 ```bash
-git clone https://github.com/purwnt/github-repositories-explorer.git
-cd github-repositories-explorer
+git clone https://github.com/purwnt/react-movies-explorer.git
+cd react-movies-explorer
 cp .env.example .env
 yarn install
 ```
