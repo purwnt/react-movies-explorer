@@ -16,7 +16,7 @@ const USER: User = {
 
 const Search: React.FC = () => {
   const [keyword, setKeyword] = useState('');
-  const [page, setPage] = useState(1);
+  const [page] = useState(1);
   const [resultKeyword, setResultKeyword] = useState('');
   const { isFetching, error, data, refetch } = useGetMovie(keyword, page);
 
